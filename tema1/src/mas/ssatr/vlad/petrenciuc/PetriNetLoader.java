@@ -18,7 +18,7 @@ public class PetriNetLoader {
     public PetriNetLoader() {
         JSONParser parser = new JSONParser();
         try {
-            Object obj = parser.parse(new FileReader("src/mas/ssatr/vlad/petrenciuc/petri.json"));
+            Object obj = parser.parse(new FileReader("tema1/src/mas/ssatr/vlad/petrenciuc/petri.json"));
 
             JSONObject jsonObject = (JSONObject) obj;
             JSONArray jsonPlaces = (JSONArray) jsonObject.get("places");

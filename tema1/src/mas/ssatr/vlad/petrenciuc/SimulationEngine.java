@@ -8,7 +8,7 @@ public class SimulationEngine {
     PetriNetModel pnm = new PetriNetModel();
 
     public void simulate() {
-        String fileName = "output.txt";
+        String fileName = "tema1/output.txt";
         try {
             FileOutputStream outputStream = new FileOutputStream(fileName);
             while (this.active) {
